@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSCalc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="calc">
+    <div id="screen">0</div>
+    <div id="buttons">
+        <div id="n7" onclick="calculator.setValue(7)">7</div>
+        <div id="n8" onclick="calculator.setValue(8)">8</div>
+        <div id="n9" onclick="calculator.setValue(9)">9</div>
+        <div id="div" onclick="calculator.setOperation('div')">/</div>
+
+        <div id="n4" onclick="calculator.setValue(4)">4</div>
+        <div id="n5" onclick="calculator.setValue(5)">5</div>
+        <div id="n6" onclick="calculator.setValue(6)">6</div>
+        <div id="mul" onclick="calculator.setOperation('mul')">*</div>
+
+        <div id="n1" onclick="calculator.setValue(1)">1</div>
+        <div id="n2" onclick="calculator.setValue(2)">2</div>
+        <div id="n3" onclick="calculator.setValue(3)">3</div>
+        <div id="sub" onclick="calculator.setOperation('sub')">-</div>
+
+        <div id="n0" onclick="calculator.setValue(0)">0</div>
+        <div id="dot" onclick="calculator.setValue('.')">.</div>
+        <div id="c" onclick="calculator.c()">C</div>
+        <div id="sum" onclick="calculator.setOperation('sum')">+</div>
+
+        <div id="eq" onclick="calculator.setOperation('eq')">=</div>
+        <div id="mod" onclick="calculator.setOperation('mod')">%</div>
+    </div>
+
+</div>
+
+<script src="calc.js"></script>
+
+</body>
+</html>

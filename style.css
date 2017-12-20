@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+
+    justify-content: center;
+}
+
+#calc {
+    display: flex;
+    width: 300px;
+
+    align-self: center;
+    flex-flow: row wrap;
+
+    background: linear-gradient(#fff, #E3EBF8);
+    box-shadow: 3px 3px 10px #999;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    color: #fff;
+}
+
+#screen {
+    display: flex;
+    max-width: 100%;
+    height: 60px;
+    margin: 10px;
+    padding: 0 15px;
+
+    flex-basis: 100%;
+    justify-content: right;
+    align-items: center;
+
+    overflow: hidden;
+
+    border: solid 2px #666;
+    background: #78FF26;
+    background-image: linear-gradient(45deg, #666 25%, transparent 25%),
+    linear-gradient(-45deg, #666 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #666 75%),
+    linear-gradient(-45deg, transparent 75%, #666 75%);
+    background-size: 2px 2px;
+
+    font-size: 36px;
+    color: #000;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#buttons div {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+    align-content: center;
+    align-items: center;
+
+    border-radius: 25%;
+    background: linear-gradient(#000, #354e6c);
+
+    cursor: pointer;justify-content: center;
+}
+#buttons #eq {
+    width: 190px;
+}  >
